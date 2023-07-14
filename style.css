@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1920px; 
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  /* min-height: 100vh; */
+  flex-direction: column;
+  margin: 0;
+
+}
+
+header {
+  background-color: #c00;
+  background: linear-gradient(to bottom, #4c67ed, #3b5bdb);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* background: yellowgreen; */
+  width:25%;
+}
+
+.container2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* background: beige; */
+}
+
+/* .form-container {
+  flex-basis: calc(20% - 0.5rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+} */
+
+/* .form-container {
+  flex-basis: 15%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+} */
+
+.form-container {
+  /* flex-basis: 15%; */
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin: 0.3rem;
+  
+}
+
+form {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+#EmblemBond-Row {
+  display: flex;  
+  margin-right: 10px;
+ 
+}
+
+#EmblemBond-Row label,
+#EmblemBond-Row select {
+  margin-right: 1em;
+}
+
+label {
+  /* display: block; */
+  margin-bottom: 0.5rem;
+  /* font-weight: bold; */
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+/* .table-container {
+  flex-basis: calc(80% - 0.5rem);
+  overflow-x: auto;
+  min-width: 100%;
+  margin-bottom: 1rem;
+} */
+
+/* .table-container {
+  flex-basis: 80%;
+  overflow-x: auto;
+  min-width: 100%;
+  margin-bottom: 1rem;
+} */
+
+/* .table-container {
+  flex-basis: 80%;
+  overflow-x: auto;
+  min-width: 100%;
+  margin-bottom: 1rem;
+} */
+
+/* .smallTable-container {
+  flex-basis: 80%;
+  overflow-x: auto;
+  min-width: 80%;
+  margin-bottom: 1rem;  
+} */
+
+.smalTable-container table#tableStats th,
+.smalTable-container table#tableStats td {
+  font-size: 0.9em; /* Adjust the em value as needed */
+}
+
+
+
+.table-container {
+  flex-basis: 80%;
+  overflow-x: auto;
+  min-width: 80%;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+thead th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody td {
+  vertical-align: middle;
+}
+
+/* .SyncSkills-table {
+  width: 100%;
+  border-collapse: collapse;
+} */
+
+.SkillNameTH {
+  width: 25%;
+}
+
+.SyncSkills-table th,
+.SyncSkills-table td,
+.EngageSkills-table th, 
+.EngageSkills-table td{
+  /* border: 1px solid black;
+  padding: 8px; */
+  font-size: 0.9em;
+}
+
+/* .text-container {
+  white-space: nowrap;
+} */
+
+.note{
+  font-size:0.8em;
+}
+
+.keep-together {
+  white-space: nowrap;
+  /* white-space: normal; */
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 0.3rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsibleContent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.hidden {
+  display: none;
+}
+
+/* @media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .form-container,
+  .table-container {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+} */
+
+.toggle-button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.description-full {
+  display: none;
+}
+
+#main {
+  display: flex;
+  flex: 1;
+}
+
+#lblInatePro {
+  font-weight: bold;
+}
+
+#lblFinalClassPro {
+  font-weight: bold;
+}
+
+#character-container{
+  min-width: 10rem;
+  /* max-width: 25%; */
+}
+
+#Skill-container {
+  min-width: 10rem;
+  /* max-width: 25%; */
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    flex-wrap: nowrap;
+  }
+
+  form {
+    flex-basis: 33.33%;
+  }
+
+  table {
+    flex-basis: 66.67%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  table {
+    font-size: 12px;
+  }
+}
