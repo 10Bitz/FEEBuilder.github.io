@@ -49,8 +49,48 @@ const characters = [
 ];
 
 const charactersClassPreviewLinks = [
-  {name: "Alear", ClassPreviewLink: "https://en.wikipedia.org/wiki/Software_testing", EnchanterPreviewLink:"https://en.wikipedia.org/wiki/.test", MageCannoneerPreviewLink: "https://en.wikipedia.org/wiki/Test"},
-  {name: "Vander", ClassPreviewLink: "https://en.wikipedia.org/wiki/Test_(Unix)", EnchanterPreviewLink:"", MageCannoneerPreviewLink: "https://www.merriam-webster.com/dictionary/test"}
+  {name: "Alear(M)", ClassPreviewLink: "https://www.youtube.com/watch?v=AKLTrCBmgZo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Lapis", ClassPreviewLink: "https://www.youtube.com/watch?v=zX3JyCGYzxw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Anna", ClassPreviewLink: "https://www.youtube.com/watch?v=LCimmc1sL2Y", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Merrin", ClassPreviewLink: "https://www.youtube.com/watch?v=NwxHsZGVX-Q", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Rosado", ClassPreviewLink: "https://www.youtube.com/watch?v=pyXyWfSW7s8", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Kagetsu", ClassPreviewLink: "https://www.youtube.com/watch?v=z1WZesPqgoo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Vander", ClassPreviewLink: "https://www.youtube.com/watch?v=9FLzJnxiEJw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Panette", ClassPreviewLink: "https://www.youtube.com/watch?v=1vWDsHzEEZ4", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Clanne", ClassPreviewLink: "https://www.youtube.com/watch?v=_xhzo8zU-k8", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Framme", ClassPreviewLink: "https://www.youtube.com/watch?v=pVfO8vdcD1k", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Ivy", ClassPreviewLink: "https://www.youtube.com/watch?v=BbIzcHFFQqw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Jean", ClassPreviewLink: "https://www.youtube.com/watch?v=d9jLMm2Q5Iw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Goldmary", ClassPreviewLink: "https://www.youtube.com/watch?v=0fkgxDI_hJo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Jade", ClassPreviewLink: "https://www.youtube.com/watch?v=GU4QdMD1-y4", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Etie", ClassPreviewLink: "https://www.youtube.com/watch?v=j4eULbGYN2k", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Zelkov", ClassPreviewLink: "https://www.youtube.com/watch?v=3oAZ63O1Bh4", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Timerra", ClassPreviewLink: "https://www.youtube.com/watch?v=mC67zGTF2KM", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Louis", ClassPreviewLink: "https://www.youtube.com/watch?v=E89rAyuJHZc", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Boucheron", ClassPreviewLink: "https://www.youtube.com/watch?v=ZnHIWAtZNOI", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Celine", ClassPreviewLink: "https://www.youtube.com/watch?v=AL7Y87YMgHQ", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Yunaka", ClassPreviewLink: "https://www.youtube.com/watch?v=XORHyuDZpzs", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Diamant", ClassPreviewLink: "https://www.youtube.com/watch?v=8HsBBArdgDA", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Alfred", ClassPreviewLink: "https://www.youtube.com/watch?v=PM7EYmOTtbg", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Chloe", ClassPreviewLink: "https://www.youtube.com/watch?v=8r6JtjfERRw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Amber", ClassPreviewLink: "https://www.youtube.com/watch?v=0MPki2GD424", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Citrinne", ClassPreviewLink: "https://www.youtube.com/watch?v=CViZCR2KCsQ", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Hortensia", ClassPreviewLink: "https://www.youtube.com/watch?v=4R6sY4Lyu-k", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Fogado", ClassPreviewLink: "https://www.youtube.com/watch?v=qZPuoYJcWio", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Seadall", ClassPreviewLink: "https://www.youtube.com/watch?v=yfkJB6QtCB4", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Bunet", ClassPreviewLink: "https://www.youtube.com/watch?v=J4SHFTTqq0c", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Alear(F)", ClassPreviewLink: "https://www.youtube.com/watch?v=jTWNgVKom8k", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Veyle", ClassPreviewLink: "https://www.youtube.com/watch?v=_pvSvc2G7jw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Saphir", ClassPreviewLink: "https://www.youtube.com/watch?v=mfRaaA6028g", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Gregory", ClassPreviewLink: "https://www.youtube.com/watch?v=F1AG4MYmjsc", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Lindon", ClassPreviewLink: "https://www.youtube.com/watch?v=re55NADXCaM", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Zelestia", ClassPreviewLink: "https://www.youtube.com/watch?v=GnU8pECWYAo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Pandreo", ClassPreviewLink: "https://www.youtube.com/watch?v=KauSDrznTjo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Mauvier", ClassPreviewLink: "https://www.youtube.com/watch?v=HFWWLc8NN24", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Madeline", ClassPreviewLink: "https://www.youtube.com/watch?v=Y6BP5hg96MU", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Nel", ClassPreviewLink: "https://www.youtube.com/watch?v=7YXDMx-GMGA", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Rafal", ClassPreviewLink: "https://www.youtube.com/watch?v=91XD0PSnVwk", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
+{name: "Alcryst", ClassPreviewLink: "https://www.youtube.com/watch?v=7OoG766ZIY8", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"}
 ]
 
 const classes = [
@@ -2757,7 +2797,3 @@ function populateSkillsTable(skills, tableBodyId) {
 
 //   console.log(`Table values have been updated: ${tableValues}`);
 // });
-
-
-
-
