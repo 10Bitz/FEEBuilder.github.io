@@ -1660,6 +1660,14 @@ function updateClassPreviewLink() {
       classLinkDiv.classList.add("hidden");
     }
 
+    if (selectedCharacterData.ClassPreviewFemaleLink) {
+      lblClassFemalePreview.href = selectedCharacterData.ClassPreviewFemaleLink;
+      lblClassFemalePreview.textContent = "Link";
+      classLinkFemaleDiv.classList.remove("hidden");
+    } else {
+      classLinkFemaleDiv.classList.add("hidden");
+    }
+
     if (selectedCharacterData.EnchanterPreviewLink) {
       lblEnchanterClassPreview.href = selectedCharacterData.EnchanterPreviewLink;
       lblEnchanterClassPreview.textContent = "Link";
