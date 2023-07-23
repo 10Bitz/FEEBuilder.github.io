@@ -1705,7 +1705,7 @@ function updatePersonalSkill() {
     const lblPersonalSkillDescription = document.getElementById("lblPersonalSkillDescription");
 
     if (selectedCharacterData.PersonalSkillName) {
-      lblPersonalSkillName.innerHTML = selectedCharacterData.PersonalSkillName + "- ";
+      lblPersonalSkillName.innerHTML = selectedCharacterData.PersonalSkillName;
       lblPersonalSkillDescription.innerHTML = selectedCharacterData.PersonalSkillDescription;
       personalSkillDiv.classList.remove("hidden");
     } else {
