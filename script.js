@@ -48,6 +48,60 @@ const characters = [
  
 ];
 
+const personalSkills = [
+{name: "Vander", PersonalSkillName: "Alabaster Duty", PersonalSkillDescription: "If unit is adjacent to the Divine Dragon, grants Crit+5 during combat to both of them."},
+{name: "Clanne", PersonalSkillName: "Verdant Faith", PersonalSkillDescription: "If unit is adjacent to the Divine Dragon, grants Hit+10 during combat to both of them."},
+{name: "Framme", PersonalSkillName: "Crimson Cheer", PersonalSkillDescription: "If unit is adjacent to the Divine Dragon, grants Avo+10 during combat to both of them."},
+{name: "Alfred", PersonalSkillName: "Self-Improver", PersonalSkillDescription: "If unit uses Wait without attacking or using items, grants Str+2 for 1 turn."},
+{name: "Etie", PersonalSkillName: "Energized", PersonalSkillDescription: "When unit recovers HP using an item, grants Str+2 for 1 turn."},
+{name: "Boucheron", PersonalSkillName: "Moved to Tears", PersonalSkillDescription: "When an ally joins a chain attack in this unit’s combat, unit deals +2 damage."},
+{name: "Céline", PersonalSkillName: "Gentle Flower", PersonalSkillDescription: "Recovery items used by allies within 2 spaces heal +50% HP."},
+{name: "Chloé", PersonalSkillName: "Fairy-Tale Folk", PersonalSkillDescription: "If a male and a female ally are adjacent within 2 spaces, unit deals +2 damage during combat."},
+{name: "Louis", PersonalSkillName: "Admiration", PersonalSkillDescription: "If two female allies are adjacent within 2 spaces, this unit takes 2 less damage during combat."},
+{name: "Yunaka", PersonalSkillName: "Trained to Kill", PersonalSkillDescription: "While unit occupies terrain that provides an Avo bonus, grants Crit+15."},
+{name: "Alcryst", PersonalSkillName: "Get Behind Me!", PersonalSkillDescription: "When an ally within 2 spaces is attacked, grants Str+3 to unit for 1 turn."},
+{name: "Citrinne", PersonalSkillName: "Generosity", PersonalSkillDescription: "When this unit uses a healing item, adjacent allies also recover the same amount of HP."},
+{name: "Lapis", PersonalSkillName: "Share Spoils", PersonalSkillDescription: "If there is an ally within 1 space, grants Hit/Avo+10 at a cost of Crit-10 to unit."},
+{name: "Diamant", PersonalSkillName: "Fair Fight", PersonalSkillDescription: "If unit initiates combat, grants Hit+15 to unit and foe if foe is able to counterattack."},
+{name: "Amber", PersonalSkillName: "Aspiring Hero", PersonalSkillDescription: "If no other units are within 1 space of unit or foe, grants Hit+20 at a cost of Avo-10 during combat."},
+{name: "Jade", PersonalSkillName: "Meditation", PersonalSkillDescription: "If unit uses Wait without attacking or using items, grants Res+2 for 1 turn."},
+{name: "Ivy", PersonalSkillName: "Single-Minded", PersonalSkillDescription: "During combat with a foe who was also unit’s most recent opponent, grants Hit+20."},
+{name: "Kagetsu", PersonalSkillName: "Blinding Flash", PersonalSkillDescription: "If unit initiates combat, inflicts Avo-10 on foe during combat."},
+{name: "Zelkov", PersonalSkillName: "Not *Quite*", PersonalSkillDescription: "If foe initiates combat, inflicts Hit-10 on that foe during combat."},
+{name: "Fogado", PersonalSkillName: "Charmer", PersonalSkillDescription: "During combat with a foe who was also unit’s most recent opponent, inflicts Crit-10 on that foe."},
+{name: "Pandreo", PersonalSkillName: "Party Animal", PersonalSkillDescription: "Grants a bonus to Hit and Avo equal to 3× the number of allies and foes within 2 spaces."},
+{name: "Bunet", PersonalSkillName: "Seconds?", PersonalSkillDescription: "On eating a packed lunch, unit may obtain another of the same item. Trigger %=Lck."},
+{name: "Timerra", PersonalSkillName: "Racket of Solm", PersonalSkillDescription: "Inflicts Crit-5 on foes within 3 spaces."},
+{name: "Panette", PersonalSkillName: "Blood Fury", PersonalSkillDescription: "If unit’s HP is not at max after combat, grants Crit+10 as long as unit’s HP stays below max."},
+{name: "Merrin", PersonalSkillName: "Knightly Escort", PersonalSkillDescription: "When 2 or more female allies are within 2 spaces, grants Hit/Avo+5 to unit and those allies."},
+{name: "Hortensia", PersonalSkillName: "Big Personality", PersonalSkillDescription: "When unit uses a healing staff, grants range +1."},
+{name: "Seadall", PersonalSkillName: "Curious Dance", PersonalSkillDescription: "At start of turn, allies within 2 spaces of unit recover 10% of their max HP."},
+{name: "Rosado", PersonalSkillName: "Stunning Smile", PersonalSkillDescription: "If foe is male, inflicts Avo-20 on that foe during combat."},
+{name: "Goldmary", PersonalSkillName: "Disarming Sigh", PersonalSkillDescription: "If foe is male, inflicts Hit-20 on that foe during combat."},
+{name: "Lindon", PersonalSkillName: "Weapon Insight", PersonalSkillDescription: "If unit is equipped with a weapon of lower level than foe’s, grants Crit+20 during combat."},
+{name: "Saphir", PersonalSkillName: "Will to Win", PersonalSkillDescription: "If unit’s HP is 50% or less at start of combat, grants Hit/Avo+20 during combat."},
+{name: "Veyle", PersonalSkillName: "Fell Protection", PersonalSkillDescription: "Adjacent allies deal +1 damage and take 3 less damage."},
+{name: "Mauvier", PersonalSkillName: "Contemplative", PersonalSkillDescription: "If unit uses Wait without attacking or using items, grants Def+2 for 1 turn."},
+{name: "Anna", PersonalSkillName: "Make a Killing", PersonalSkillDescription: "May obtain 500G when unit defeats a foe. Trigger %=Lck."},
+{name: "Jean", PersonalSkillName: "Expertise", PersonalSkillDescription: "Grants unit enhanced stat growth when leveling up. [Doubles class growths.]"},
+{name: "Nel", PersonalSkillName: "Protective", PersonalSkillDescription: "If foe initiates combat against Rafal, grants Crit+10 to unit for 1 turn."},
+{name: "Rafal", PersonalSkillName: "Rivalry", PersonalSkillDescription: "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn."},
+{name: "Nil", PersonalSkillName: "Wounded Pride", PersonalSkillDescription: "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn."},
+{name: "Zelestia", PersonalSkillName: "Friendly Boost", PersonalSkillDescription: "When unit defeats a foe, grants Hit+20 to allies within 2 spaces for 1 turn."},
+{name: "Gregory", PersonalSkillName: "Survival Plan", PersonalSkillDescription: "When there are more foes than allies within 3 spaces, grants Avo+20."},
+{name: "Madeline", PersonalSkillName: "Knightly Code", PersonalSkillDescription: "If foe initiates combat and unit is adjacent to an ally, unit takes 2 less damage."},
+{name: "Alfred (foe)", PersonalSkillName: "Self-Defense", PersonalSkillDescription: "If unit uses Wait without attacking or using items, grants Str+2 for 1 turn."},
+{name: "Celine (foe)", PersonalSkillName: "Fierce Bloom", PersonalSkillDescription: "Recovery items used by allies within 2 spaces heal +50% HP."},
+{name: "Diamant (foe)", PersonalSkillName: "This Ends Here", PersonalSkillDescription: "If unit initiates combat, grants Hit+15 to unit and foe if foe is able to counterattack."},
+{name: "Alcryst (foe)", PersonalSkillName: "Show-Off", PersonalSkillDescription: "When an ally within 2 spaces is attacked, grants Str+3 to unit for 1 turn."},
+{name: "Ivy (foe)", PersonalSkillName: "Final Say", PersonalSkillDescription: "During combat with a foe who was also unit’s most recent opponent, grants Hit+20."},
+{name: "Hortensia (foe)", PersonalSkillName: "Stealth Assist", PersonalSkillDescription: "When unit uses a healing staff, grants range +1."},
+{name: "Timerra (foe)", PersonalSkillName: "Dignity of Solm", PersonalSkillDescription: "Inflicts Crit-5 on foes within 3 spaces."},
+{name: "Fogado (foe)", PersonalSkillName: "Wear Down", PersonalSkillDescription: "During combat with a foe who was also unit’s most recent opponent, inflicts Crit-10 on that foe."},
+{name: "", PersonalSkillName: "", PersonalSkillDescription: ""}
+];
+
+
 const charactersClassPreviewLinks = [
   {name: "Alear", ClassPreviewLink: "https://www.youtube.com/watch?v=AKLTrCBmgZo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I", ClassPreviewFemaleLink: "https://www.youtube.com/watch?v=jTWNgVKom8k"},
 {name: "Lapis", ClassPreviewLink: "https://www.youtube.com/watch?v=zX3JyCGYzxw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
@@ -1635,9 +1689,36 @@ else {
 
   updateClassPreviewLink()
 
+  updatePersonalSkill()
+
 });
 
+function updatePersonalSkill() {
+  const characterSelect = document.getElementById("characterSelect");
+  const selectedCharacter = characterSelect.value;
+  const selectedCharacterData = personalSkills.find(character => character.name === selectedCharacter);
 
+  if (selectedCharacterData) {
+    const personalSkillDiv = document.getElementById("personalSkillDiv");   
+    const lblPersonalSkillName = document.getElementById("lblPersonalSkillName");
+    const lblPersonalSkillDescription = document.getElementById("lblPersonalSkillDescription");
+
+    if (selectedCharacterData.PersonalSkillName) {
+      lblPersonalSkillName.textContent = selectedCharacterData.lblPersonalSkillName;
+      lblPersonalSkillDescription.textContent = selectedCharacterData.lblPersonalSkillDescription;
+      personalSkillDiv.classList.remove("hidden");
+    } else {
+      personalSkillDiv.classList.add("hidden");
+    }
+		
+  } else {
+    // If no character is selected or selected character does not have data
+    const personalSkillDiv = document.getElementById("personalSkillDiv");
+
+    personalSkillDiv.classList.add("hidden");
+    
+  }
+}
 
 function updateClassPreviewLink() {
   const characterSelect = document.getElementById("characterSelect");
