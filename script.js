@@ -49,7 +49,7 @@ const characters = [
 ];
 
 const charactersClassPreviewLinks = [
-  {name: "Alear(M)", ClassPreviewLink: "https://www.youtube.com/watch?v=AKLTrCBmgZo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I", ClassPreviewFemaleLink: "https://www.youtube.com/watch?v=jTWNgVKom8k"},
+  {name: "Alear", ClassPreviewLink: "https://www.youtube.com/watch?v=AKLTrCBmgZo", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I", ClassPreviewFemaleLink: "https://www.youtube.com/watch?v=jTWNgVKom8k"},
 {name: "Lapis", ClassPreviewLink: "https://www.youtube.com/watch?v=zX3JyCGYzxw", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
 {name: "Anna", ClassPreviewLink: "https://www.youtube.com/watch?v=LCimmc1sL2Y", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
 {name: "Merrin", ClassPreviewLink: "https://www.youtube.com/watch?v=NwxHsZGVX-Q", EnchanterPreviewLink: "https://www.youtube.com/watch?v=jl5PGcBu2yM", MageCannoneerPreviewLink: "https://www.youtube.com/watch?v=X9CpzdggB_I"},
