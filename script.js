@@ -2805,3 +2805,7 @@ function populateSkillsTable(skills, tableBodyId) {
 
 //   console.log(`Table values have been updated: ${tableValues}`);
 // });
+
+
+
+
