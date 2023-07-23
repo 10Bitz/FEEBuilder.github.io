@@ -85,21 +85,12 @@ const personalSkills = [
 {name: "Mauvier", PersonalSkillName: "Contemplative", PersonalSkillDescription: "If unit uses Wait without attacking or using items, grants Def+2 for 1 turn."},
 {name: "Anna", PersonalSkillName: "Make a Killing", PersonalSkillDescription: "May obtain 500G when unit defeats a foe. Trigger %=Lck."},
 {name: "Jean", PersonalSkillName: "Expertise", PersonalSkillDescription: "Grants unit enhanced stat growth when leveling up. [Doubles class growths.]"},
-{name: "Nel", PersonalSkillName: "Protective", PersonalSkillDescription: "If foe initiates combat against Rafal, grants Crit+10 to unit for 1 turn."},
-{name: "Rafal", PersonalSkillName: "Rivalry", PersonalSkillDescription: "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn."},
-{name: "Nil", PersonalSkillName: "Wounded Pride", PersonalSkillDescription: "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn."},
-{name: "Zelestia", PersonalSkillName: "Friendly Boost", PersonalSkillDescription: "When unit defeats a foe, grants Hit+20 to allies within 2 spaces for 1 turn."},
-{name: "Gregory", PersonalSkillName: "Survival Plan", PersonalSkillDescription: "When there are more foes than allies within 3 spaces, grants Avo+20."},
-{name: "Madeline", PersonalSkillName: "Knightly Code", PersonalSkillDescription: "If foe initiates combat and unit is adjacent to an ally, unit takes 2 less damage."},
-{name: "Alfred (foe)", PersonalSkillName: "Self-Defense", PersonalSkillDescription: "If unit uses Wait without attacking or using items, grants Str+2 for 1 turn."},
-{name: "Celine (foe)", PersonalSkillName: "Fierce Bloom", PersonalSkillDescription: "Recovery items used by allies within 2 spaces heal +50% HP."},
-{name: "Diamant (foe)", PersonalSkillName: "This Ends Here", PersonalSkillDescription: "If unit initiates combat, grants Hit+15 to unit and foe if foe is able to counterattack."},
-{name: "Alcryst (foe)", PersonalSkillName: "Show-Off", PersonalSkillDescription: "When an ally within 2 spaces is attacked, grants Str+3 to unit for 1 turn."},
-{name: "Ivy (foe)", PersonalSkillName: "Final Say", PersonalSkillDescription: "During combat with a foe who was also unit’s most recent opponent, grants Hit+20."},
-{name: "Hortensia (foe)", PersonalSkillName: "Stealth Assist", PersonalSkillDescription: "When unit uses a healing staff, grants range +1."},
-{name: "Timerra (foe)", PersonalSkillName: "Dignity of Solm", PersonalSkillDescription: "Inflicts Crit-5 on foes within 3 spaces."},
-{name: "Fogado (foe)", PersonalSkillName: "Wear Down", PersonalSkillDescription: "During combat with a foe who was also unit’s most recent opponent, inflicts Crit-10 on that foe."},
-{name: "", PersonalSkillName: "", PersonalSkillDescription: ""}
+{name: "Nel (DLC)", PersonalSkillName: "Protective", PersonalSkillDescription: "If foe initiates combat against Rafal, grants Crit+10 to unit for 1 turn."},
+{name: "Rafal (DLC)", PersonalSkillName: "Rivalry", PersonalSkillDescription: "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn."},
+{name: "Zelestia (DLC)", PersonalSkillName: "Friendly Boost", PersonalSkillDescription: "When unit defeats a foe, grants Hit+20 to allies within 2 spaces for 1 turn."},
+{name: "Gregory (DLC)", PersonalSkillName: "Survival Plan", PersonalSkillDescription: "When there are more foes than allies within 3 spaces, grants Avo+20."},
+{name: "Madeline (DLC)", PersonalSkillName: "Knightly Code", PersonalSkillDescription: "If foe initiates combat and unit is adjacent to an ally, unit takes 2 less damage."}
+
 ];
 
 
