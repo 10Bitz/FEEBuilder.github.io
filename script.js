@@ -49,6 +49,7 @@ const characters = [
 ];
 
 const personalSkills = [
+{name: "Alear", PersonalSkillName: "Divinely Inspiring", PersonalSkillDescription: "Adjacent allies deal +3 damage and take 1 less damage."},
 {name: "Vander", PersonalSkillName: "Alabaster Duty", PersonalSkillDescription: "If unit is adjacent to the Divine Dragon, grants Crit+5 during combat to both of them."},
 {name: "Clanne", PersonalSkillName: "Verdant Faith", PersonalSkillDescription: "If unit is adjacent to the Divine Dragon, grants Hit+10 during combat to both of them."},
 {name: "Framme", PersonalSkillName: "Crimson Cheer", PersonalSkillDescription: "If unit is adjacent to the Divine Dragon, grants Avo+10 during combat to both of them."},
