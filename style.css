@@ -28,6 +28,8 @@ header {
   color: white;
   text-align: center;
   padding: 1rem;
+  width: 100%; /* Occupy the full width of the viewport */
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 h1 {
