@@ -24,8 +24,10 @@ body {
 
 header {
   background-color: #c00;
-  background: linear-gradient(to bottom, #4c67ed, #3b5bdb);
-  color: white;
+  /* background: linear-gradient(to bottom, #4c67ed, #3b5bdb); */
+  background: linear-gradient(to right, #007bff, #ff0000);
+  color: #fff; /* Set the font color to white to make it readable on the gradient background */
+  /* color: white; */
   text-align: center;
   padding: 1rem;
   width: 100%; /* Occupy the full width of the viewport */
