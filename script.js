@@ -198,7 +198,7 @@ const classes = [
   {name: "Wyvern Knight", growths: [0.2,0.2,0,0.1,0.05,0.2,0.05,0.05,0.05],UniqueClass: ["No"],bases: [25,9,1,8,9,6,5,3,6,6],statcaps: [83,46,31,43,38,35,22,25,18],AdvanceOrSpecial: [1], Proficiency1: ["Sword(B^)","Lance(B^)"], Proficiency2: ["Sword(B^)","Axe(B^)"], Proficiency3: ["Lance(B^)","Axe(B^)"]},
   {name: "Thief", growths: [0.05,0.1,0,0.2,0.15,0.15,0.05,0.15,0],UniqueClass: ["No"],bases: [22,5,0,10,10,6,2,2,4,5],statcaps: [60,43,22,51,42,33,23,30,13],AdvanceOrSpecial: [2], Proficiency1: ["Knife(S)"], Proficiency2: [], Proficiency3: []},  
   {name: "Enchanter (DLC)", growths: [0.05,0.15,0.15,0.15,0.1,0.05,0.05,0.15,0.05],UniqueClass: ["No"],bases: [20,5,5,5,5,5,5,5,5,5],statcaps: [53,25,25,43,39,20,22,42,11],AdvanceOrSpecial: [1], Proficiency1: ["Knife(B^)","Arts(B^)"], Proficiency2: [], Proficiency3: []},
-  {name: "Mage Cannoneer (DLC)", growths: [0.15,0.1,0,0.15,0.05,0.2,0.05,0.1,0.1],UniqueClass: ["No"],statcaps: [73,45,23,43,23,49,24,31,18],AdvanceOrSpecial: [1], Proficiency1: ["Cannonball(S)"], Proficiency2: [], Proficiency3: []}  
+  {name: "Mage Cannoneer (DLC)", growths: [0.15,0.1,0,0.15,0.05,0.2,0.05,0.1,0.1],UniqueClass: ["No"],bases: [20,5,5,5,5,5,5,5,5,5],statcaps: [73,45,23,43,23,49,24,31,18],AdvanceOrSpecial: [1], Proficiency1: ["Cannonball(S)"], Proficiency2: [], Proficiency3: []}  
 ];
 
 const classProficiencyUp = [
@@ -207,9 +207,9 @@ const classProficiencyUp = [
   {name: "Axe", classes: ["Bow Knight", "General", "Great Knight", "Griffin Knight",  "Hero", "Mage Knight", "Paladin","Wolf Knight","Wyvern Knight"]},
   {name: "Bow", classes: ["Warrior"]},
   {name: "Tome", classes: ["High Priest"]},
-  {name: "Arts", classes: ["Enchanter(DLC)", "High Priest" ]},
+  {name: "Arts", classes: ["Enchanter (DLC)", "High Priest" ]},
   {name: "Staff", classes: ["Griffin Knight", "Royal Knight","Sage"]},
-  {name: "Knife", classes: ["Enchanter(DLC)", "Wolf Knight"]}
+  {name: "Knife", classes: ["Enchanter (DLC)", "Wolf Knight"]}
 ]
 
 const classSkills = [
